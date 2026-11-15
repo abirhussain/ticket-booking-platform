@@ -1,0 +1,22 @@
+{
+  "name": "ticket-booking-platform",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "build:shared": "npm run build --workspace=@ticketing/shared",
+    "typecheck:shared": "npm run typecheck --workspace=@ticketing/shared",
+    "test:shared": "npm run test --workspace=@ticketing/shared"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

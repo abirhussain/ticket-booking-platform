@@ -1,0 +1,8 @@
+/docs/Production-Grade Microservice Project Final Roadmap.docx
+
+.env
+.env.*
+!.env.example
+
+node_modules/
+dist/
